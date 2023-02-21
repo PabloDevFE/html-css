@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+:root {
+    --cor1:#660606;
+    --cor2:#daa520;
+    --cor3:#242f40;
+    --cor4:#E5E5E5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    background-color: var(--cor1);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.logo {
+    width: 120px;
+    height: 80px;
+    margin: 5px 10%;
+}
+
+header > nav {
+    margin: auto;
+    gap: 10px;
+    display: flex;
+}
+
+button {
+    background-color: var(--cor2);
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 100%;
+
+}
+
+.apresentacao-text {
+    margin: auto;
+    width: 50%;
+}
+
+.apresentacao-imagem {
+
+}
+
+.foto-perfil {
+    width: 70%;
+}
+

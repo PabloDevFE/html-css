@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #f9b238b7;
+}
+
+.cabecalho {
+    display: flex;  
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 42px;
+}
+
+.cabecalho-botao {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: #EA2128;
+    font-weight: bold;
+}
+
+.conteudo {
+    border-top: 0.5px solid #EA2128;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 64px;
+    font-weight: normal;
+    color: #EA2128;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    color: #EA2128;
+}
+
+.conteudo-principal-buton {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:#d11e24;
+    color: #F9B238;
+    border: none;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px black;
+}
+.conteudo-principal-buton:hover {
+ background-color: rgb(92, 23, 23);
+ transition: 0.5s;
+}
+
+.conteudo-principal-imagem {
+    height: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.conteudo-secundario-titulo {
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    border-top: 0.5px solid #EA2128;
+    padding-top: 60px;
+    color: #EA2128;
+}
+
+.conteudo-secundario-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Bakbak One', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #EA2128;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    border-top: solid 0.3px #EA2128;
+}
+
+.rodape-imagem {
+    height: 80px;
+    width: 140px;
+    align-items: center;
+    padding: 12px;
+}
