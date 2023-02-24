@@ -19,7 +19,7 @@ Cores
 }
 
 body {
-    background-color: #9AADBF;
+    background-color: #D3B99F;
 }
 
 header {
@@ -54,9 +54,10 @@ header img {
 }
 
 main {
-    background-color: #6D98BA;
+    background-color: #d4d3d1;
     padding-bottom: 5%;
     padding-top: 5%;
+    padding: 80px 10px;
 }
 
 main h1 {
@@ -69,6 +70,7 @@ main h1 {
     margin: 0px auto 40px auto;
     background-color: #D3B99F;
     border-radius: 0px 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.322);
 }
 
 main p {
@@ -77,36 +79,33 @@ main p {
     margin: auto;  
     padding: 10px 30px;
     font-family: 'Kanit', sans-serif;
-    color: #210203;
+    color: black;
 }
 
 section {
-    padding: 40px 20px;
-    columns: 2;
+    columns: 1;
+    width: 100%;
+    padding-bottom: 40px;
 }
 
 section a {
     text-align: center;
-    max-width: 360px;
-    max-height: 200px;
     margin: auto;
     text-decoration: none;
     color: #360305;
     font-family:'Chakra Petch', sans-serif;
-    font-size: 25px;
-    
+    font-size: 30px;
 }
 
 section img {
-    max-width: 360px;
-    max-height: 200px;
     margin: auto;
+    max-width: 280px;
 }
 
 .artigo-miniatura {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    padding: 40px 0px 0px 0px;
 }
 
 footer {
