@@ -13,11 +13,28 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(75, 75, 75);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(75, 75, 75);
+        }
+
+        tbody >tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        caption {
+            font-size: 1.5em;
+            padding: 10px;
+            background-color: rgb(163, 163, 163);
         }
 
         td, th {
@@ -34,6 +51,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--
         Anatomio para tabelas grandes
+            caption
             table
                 thead
                     tr, td, th
@@ -45,11 +63,13 @@
 
     <table>
 
+        <caption>População dos estados brasileiros</caption>
+
         <thead>
 
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
 
         </thead>
@@ -171,7 +191,7 @@
         <tfoot>
 
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>210 147 125</strong></td>
             </tr>
 
